@@ -33,7 +33,7 @@ Download the zip file first to use this library and uncompress it to a folder na
  *        Connect the IO port of the DHT11 data port
  */
   void read(int pin); 
-
+```
 ## Compatibility
 
 MCU                | Work Well | Work Wrong | Untested  | Remarks
