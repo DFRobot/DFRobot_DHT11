@@ -1,21 +1,23 @@
 # DFRobot_DHT11
 
-DHT11 is used to read the temperature and humidity of the current environment.
+* [中文](./README_CN.md)
 
-## DFRobot_DHT11 Library for Arduino
----------------------------------------------------------
-Provides an Arduino library for read DHT11 data to calculate temperature and humidity
+DHT11 is used to read the temperature and humidity of the current environment. 
 
-## Table of Contents
+![产品效果图](./resources/images/DFR0067.png)
 
+## Product Link（[https://www.dfrobot.com/product-174.html](https://www.dfrobot.com/product-174.html)）
+    SKU: DFR0067
+
+* [Summary](#summary)
 * [Installation](#installation)
 * [Methods](#methods)
 * [Compatibility](#compatibility)
 * [History](#history)
 * [Credits](#credits)
 
-<snippet>
-<content>
+## Summary
+Provides an Arduino library for read DHT11 data to calculate temperature and humidity.
 
 ## Installation
 
@@ -26,12 +28,12 @@ Download the zip file first to use this library and uncompress it to a folder na
 
 ```C++
 
-/*
- * @brief Read DHT11 data
- *
- * @param pin:
- *        Connect the IO port of the DHT11 data port
- */
+  /**
+   * @fn read
+   * @brief Read DHT11 data
+   * @param pin: Connect the IO port of the DHT11 data port.
+   * @return NONE    
+   */
   void read(int pin); 
 ```
 ## Compatibility
@@ -44,8 +46,9 @@ Arduino uno |       √      |             |            |
 
 ## History
 
-- Sep 14, 2018 - Version 0.1 released.
+- 2018/09/14 - Version 0.1 released.
 
 ## Credits
 
-Written by Wuxiao, 2018. (Welcome to our [website](https://www.dfrobot.com/))
+Written by Wuxiao(xiao.wu@dfrobot.com), 2018. (Welcome to our [website](https://www.dfrobot.com/))
+

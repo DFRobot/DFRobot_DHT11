@@ -1,3 +1,15 @@
+/*!
+ * @file DFRobot_DHT11.cpp
+ * @brief DHT11 is used to read the temperature and humidity of the current environment. 
+ *
+ * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
+ * @license     The MIT License (MIT)
+ * @author [Wuxiao](xiao.wu@dfrobot.com)
+ * @version  V1.0
+ * @date  2018-09-14
+ * @url https://github.com/DFRobot/DFRobot_DHT11
+ */
+
 #include "DFRobot_DHT11.h"
 
 void DFRobot_DHT11::read(int pin)
